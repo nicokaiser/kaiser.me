@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kaiser;Nico;;;
+FN:Nico Kaiser
+EMAIL;type=HOME:nico@kaiser.me
+TEL;type=CELL;type=pref:+43 660 2281910
+URL:https\://kaiser.me/
+END:VCARD
