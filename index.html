@@ -3,39 +3,50 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Nico Kaiser</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" href="fonts/LatoLatin-Bold.woff2" as="font">
-  <link rel="preload" href="fonts/LatoLatin-Light.woff2" as="font">
-  <link rel="preload" href="fonts/LatoLatin-Regular.woff2" as="font">
+  <link rel="preload" href="fonts/lato-latin-300-normal.woff2" as="font">
+  <link rel="preload" href="fonts/lato-latin-400-normal.woff2" as="font">
+  <link rel="preload" href="fonts/lato-latin-700-normal.woff2" as="font">
   <style>
     @font-face {
-      font-family: 'LatoLatinWeb';
-      src: url('fonts/LatoLatin-Bold.woff2') format('woff2'), url('fonts/LatoLatin-Bold.woff') format('woff');
+      font-family: 'Lato';
       font-style: normal;
-      font-weight: 700;
-      text-rendering: optimizeLegibility;
-    }
-
-    @font-face {
-      font-family: 'LatoLatinWeb';
-      src: url('fonts/LatoLatin-Light.woff2') format('woff2'), url('fonts/LatoLatin-Light.woff') format('woff');
-      font-style: normal;
+      font-display: swap;
       font-weight: 300;
-      text-rendering: optimizeLegibility;
+      src:
+        local('Lato Light'),
+        local('Lato-Light'), 
+        url('fonts/lato-latin-300-normal.woff2') format('woff2'),
+        url('fonts/lato-latin-300-normal.woff') format('woff');
     }
 
     @font-face {
-      font-family: 'LatoLatinWeb';
-      src: url('fonts/LatoLatin-Regular.woff2') format('woff2'), url('fonts/LatoLatin-Regular.woff') format('woff');
+      font-family: 'Lato';
       font-style: normal;
+      font-display: swap;
       font-weight: 400;
-      text-rendering: optimizeLegibility;
+      src:
+        local('Lato Regular'),
+        local('Lato-Regular'), 
+        url('fonts/lato-latin-400-normal.woff2') format('woff2'),
+        url('fonts/lato-latin-400-normal.woff') format('woff');
+    }
+
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-display: swap;
+      font-weight: 700;
+      src:
+        local('Lato Bold'),
+        local('Lato-Bold'), 
+        url('fonts/lato-latin-700-normal.woff2') format('woff2'),
+        url('fonts/lato-latin-700-normal.woff') format('woff');
     }
 
     body {
-      font-family: 'LatoLatinWeb', sans-serif;
+      font-family: 'Lato', sans-serif;
       font-weight: 300;
       line-height: 1.5;
       padding: 3vh 10vw;
