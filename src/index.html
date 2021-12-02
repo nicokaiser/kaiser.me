@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Nico Kaiser</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#333">
   <link rel="icon" href="data:,">
   <style>
     body {
@@ -35,6 +37,17 @@
     a {
       color: #333;
       font-weight: 400;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #fff;
+        background: #333;
+      }
+
+      a {
+        color: #fff;
+      }
     }
   </style>
 </head>
