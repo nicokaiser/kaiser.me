@@ -8,7 +8,7 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 ## Personal Summary
 
 - Software developer with over 15 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
-- Over 9 years of experience in developing and running high-availability microservices and applications in production using Node.js.
+- Over 10 years of experience in developing and running high-availability microservices and applications in production using Node.js.
 - Expert in MySQL database administration including performance and high availability.
 - Very diverse skill set in software development (including the adaption of software design patterns), Linux server administration, and technical support.
 - Able to work independently, recognizing problems and finding suitable solutions.
@@ -22,15 +22,15 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 
 #### Programming Languages and Tools
 
-JavaScript, Node.js, PHP, Perl, Bash, Software Design Patterns, Continuous Integration, Unit Testing
+JavaScript, Node.js, Vue.js, PHP, Perl, Bash, Software Design Patterns, Continuous Integration, Unit Testing
 
 #### Database Technologies
 
-MySQL, NDB, MongoDB, Solr, SQLite
+MySQL, MongoDB, Solr, SQLite
 
 #### Web Standards and Frameworks
 
-HTML5, WebSockets, CSS/SASS, XML/XSLT, AJAX, REST, SOAP
+HTML5, WebSockets, CSS/SASS, XML/XSLT, AJAX, REST
 
 #### Operating Systems and DevOps Tools
 
@@ -38,7 +38,7 @@ Linux (Debian, Ubuntu, CentOS), UNIX (macOS, Solaris, FreeBSD), Windows; Docker,
 
 #### Internet and Network Technologies
 
-TCP/IP, IPv6, DNS, NFS, SSH, LDAP, Apache, nginx, SMB, server administration, interoperability between UNIX and Windows systems
+TCP/IP, IPv6, DNS, NFS, SSH, LDAP, Apache, nginx, server administration
 
 #### Photography, Graphical Visualization, Design and Prepress
 
@@ -52,6 +52,7 @@ Capture One, Adobe Photoshop, Lightroom, Acrobat, Illustrator, InDesign
 _Software Developer, 09/2009 - present_
 
 - Development of large PHP and Node.js web and backend applications in financial context.
+- Implementation of Vue.js frontends
 - Concept, implementation and operation of a Node.js and WebSocket-based generic high-traffic event push service for various sites and services.
 - Concept and development of a powerful Open Source REST API framework, available at https://github.com/godmodelabs/flora
 - Maintenance and migration of legacy PHP databases and large applications.
