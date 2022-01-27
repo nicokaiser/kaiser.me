@@ -22,7 +22,7 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 
 #### Programming Languages and Tools
 
-JavaScript, Node.js, Vue.js, PHP, Perl, Bash, Software Design Patterns, Continuous Integration, Unit Testing
+JavaScript, TypeScript, Vue.js, Node.js, PHP, Perl, Bash, Software Design Patterns, Continuous Integration, Unit Testing
 
 #### Database Technologies
 
