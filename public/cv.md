@@ -4,7 +4,6 @@ _Web Developer & Computer Scientist_
 
 https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](https://twitter.com/nicokaiser)
 
-
 ## Personal Summary
 
 - Software developer with over 15 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
@@ -16,7 +15,6 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 - Exceptional problem solving skills, critical thinking skills, and patience.
 - "Team glue", good at bringing teams together at a personal level.
 - Highly interested in new technologies, methods and web standards, engaged and active within developer communities.
-
 
 ## Technical Profile
 
@@ -86,7 +84,6 @@ _Civilian Service (in lieu of military service), 11/2000 - 09/2001_
 - Planning, implementation and administration of various Intranet and Internet applications
 - Development of custom-tailored medical database solutions.
 
-
 ## Education
 
 #### Technische Universität München
@@ -96,7 +93,6 @@ _Studies of Computer Science, 10/2001 - 02/2009_
 - Degree: Diplom-Informatiker univ. (grade: 1.7)
 - Subsidiary subject: Business Studies
 
-
 ## Language Skills
 
 - German: native speaker
@@ -104,14 +100,12 @@ _Studies of Computer Science, 10/2001 - 02/2009_
 - French: beginner level
 - Spanish: beginner level
 
-
 ## Hobbies and Interests
 
 - Socialising with friends and family
 - Music: accordion and bandoneon (classical, jazz, tango, folk), member of various ensembles and orchestras
 - Photography (analog, digital) and digital post-processing, https://kaiser.photo
 - Technical playground and Open Source Software contributions, https://github.com/nicokaiser
-
 
 ## Publications
 
@@ -121,7 +115,6 @@ Informatics for Health and Social Care, 2001, Vol. 26, No. 4, pp 237-250
 [Awareness Services in Open-Innovation-Communities - A Fame-Mirror-System as an Example](https://kaiser.me/diplomarbeit). Diploma Thesis in Computer Science, 2009, Technische Universität München
 
 [Computer Based Training Server: a Free, Reliable, and Scalable Platform for Web-Based Courses](http://slice.utah.edu/2003/Friday_demo/Batschkus,_demo.htm) (M. Batschkus, M. Dugas, A. Brandmaier, T. Heilmann, M. Jehle, N. Kaiser, N. Engelhardt, K Schmidt) Multimedia-Lerncenter-Medizin, IBE, University of Munich, Munich, Germany
-
 
 ## References
 
