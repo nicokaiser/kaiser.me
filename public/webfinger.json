@@ -1,0 +1,19 @@
+{
+  "subject": "acct:nico@kaiser.me",
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/avatar",
+      "href": "https://kaiser.me/nico.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://kaiser.me/",
+      "type": "text/html"
+    },
+    {
+      "rel": "me",
+      "href": "https://kaiser.me/"
+    }
+  ]
+}
