@@ -1,4 +1,4 @@
 Contact: mailto:nico@kaiser.me
-Expires: 2023-01-01T00:00:00.000Z
+Expires: 2024-01-01T00:00:00.000Z
 Encryption: https://kaiser.me/.well-known/pgp-key.txt
 Canonical: https://kaiser.me/.well-known/security.txt
