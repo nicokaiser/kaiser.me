@@ -6,8 +6,8 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 
 ## Personal Summary
 
-- Software developer with over 15 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
-- Over 11 years of experience in developing and running high-availability microservices and applications in production using Node.js.
+- Software developer with 20 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
+- Over 12 years of experience in developing and running high-availability microservices and applications in production using Node.js.
 - Expert in MySQL database administration including performance and high availability.
 - Very diverse skill set in software development (including the adaption of software design patterns), Linux server administration, and technical support.
 - Able to work independently, recognizing problems and finding suitable solutions.
@@ -24,7 +24,7 @@ JavaScript, TypeScript, Vue.js, Node.js, PHP, Perl, Bash, Software Design Patter
 
 #### Database Technologies
 
-MySQL, MongoDB, Solr, SQLite
+MySQL, Solr, SQLite
 
 #### Web Standards and Frameworks
 
@@ -36,7 +36,7 @@ Linux (Debian, Ubuntu), UNIX (macOS, FreeBSD), Windows; Docker, Git, GitLab, Jir
 
 #### Internet and Network Technologies
 
-TCP/IP, IPv6, DNS, NFS, SSH, Apache, nginx, server administration
+TCP/IP, IPv6, DNS, SSH, Apache, nginx, server administration
 
 #### Photography, Graphical Visualization, Design and Prepress
 
@@ -44,7 +44,7 @@ Capture One, Adobe Photoshop, Lightroom, Acrobat, Illustrator, InDesign
 
 ## Professional Experience
 
-#### BörseGo AG, Munich
+#### stock3 AG, Munich (former: BörseGo AG)
 
 _Software Developer, 09/2009 - present_
 
