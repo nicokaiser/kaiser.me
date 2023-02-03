@@ -1,11 +1,8 @@
 {
   "subject": "acct:nicokaiser@mastodon.social",
-  "aliases": [
-    "https://mastodon.social/@nicokaiser",
-    "https://mastodon.social/users/nicokaiser"
-  ],
+  "aliases": ["https://mastodon.social/@nicokaiser", "https://mastodon.social/users/nicokaiser"],
   "links": [
-     {
+    {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
       "href": "https://mastodon.social/@nicokaiser"
