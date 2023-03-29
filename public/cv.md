@@ -7,7 +7,7 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 ## Personal Summary
 
 - Software developer with 20 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
-- Over 12 years of experience in developing and running high-availability microservices and applications in production using Node.js.
+- Over 13 years of experience in developing and running high-availability microservices and applications in production using Node.js.
 - Expert in MySQL database administration including performance and high availability.
 - Very diverse skill set in software development (including the adaption of software design patterns), Linux server administration, and technical support.
 - Able to work independently, recognizing problems and finding suitable solutions.
