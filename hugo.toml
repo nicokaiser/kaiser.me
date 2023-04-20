@@ -1,0 +1,7 @@
+baseURL = "https://kaiser.me/"
+disableKinds = ["taxonomy", "term", "sitemap"]
+disableHugoGeneratorInject = true
+
+[outputs]
+  page = ["HTML"]
+  home = ["HTML"]

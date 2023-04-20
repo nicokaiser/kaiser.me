@@ -1,14 +1,20 @@
 {
-  "name": "lt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "hugo-extended server",
+    "dev:css": "npx postcss src/assets/main.css -o assets/main.css --watch",
+    "build": "hugo-extended --gc --minify",
+    "build:css": "NODE_ENV=production npx postcss src/assets/main.css -o assets/main.css"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "autoprefixer": "^10.4.14",
+    "hugo-extended": "^0.111.3",
+    "postcss": "^8.4.22",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-go-template": "^0.0.13",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "tailwindcss": "^3.3.1"
   }
 }
