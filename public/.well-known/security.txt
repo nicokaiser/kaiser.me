@@ -1,4 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Contact: mailto:nico@kaiser.me
+Contact: tel:+436602281910
 Expires: 2024-01-01T00:00:00.000Z
 Encryption: https://kaiser.me/.well-known/pgp-key.txt
 Canonical: https://kaiser.me/.well-known/security.txt
+Preferred-Languages: de, en
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE8ZBKthha7MzKhR7oT4tmWMEEuXYFAmSkfNEACgkQT4tmWMEE
+uXaIbhAAqkZmqyGvD0rn3XBCUb5ftzBZsyIz/PUzQ9z7Yb7e4HF0qDxGdv+H4yup
+8/Y/c4ywZJSzrom1hJ7sZ3N6FGqbDtxAo7MaBSVtq1iDC+0xR9PSyrTpg1v8plkY
+Ch0RGHgVhDhH00cv4Q3uSwPQw0mHCvN2ps/LO999xcjPg0Na9rz63u8XMtOzGuLM
+O4CvcG2PJRW8b343PskNVyg7nzgOLT+mRotsjVgoryMvTCGZJyVkcHmzbE6bR6+s
+8SIwqJcjX0QHdHw1MnW1jR+9UYD40wHGfXxm2+qYSIc/HLgrHXDd9d2YmIvYqIz5
+qBOoVzE+vjhF1j8sUk8PEVGo4j7BOzaEagt8qXgmOj+UI5HV/qWNZ1ZaECAGt6Zc
+RFz/BtexiaG09LXOeVBYxLCl7xKFHXyAQuXRphbk/E+cJEl+HGyNhp5Y3U5bX5qJ
+hZoU/h4aVAN+uHRM2v9pAtFaOxuW8hBE/E1zhWF8nGdf3MDMGrdiooICti+v0qLp
+eLXOVQnSk13C1NTuTmvQiFOjF6qNt8Xbd0Yq8RPyEkDaudv17RRg2Irpr6ksfpP7
+HPnKGc8Ig4sksJYV49Mibirvq7xadriP9OLiMKxwvUAmWn4pJi4IsqbTZzDfQCGG
+x1eyxZlpp8B8JJ0XWZ0BWi6oJKmKBbdoYXUJREzYvtvcl02IG+A=
+=wrRP
+-----END PGP SIGNATURE-----
