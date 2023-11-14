@@ -7,7 +7,7 @@ https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](http
 ## Personal Summary
 
 - Software developer with 20 years of full-time, freelance and hobbyist experience in developing high-end, database-driven web applications.
-- Over 13 years of experience in developing and running high-availability microservices and applications in production using Node.js.
+- Over 14 years of experience in developing and running high-availability microservices and applications in production using Node.js.
 - Expert in MySQL database administration including performance and high availability.
 - Very diverse skill set in software development (including the adaption of software design patterns), Linux server administration, and technical support.
 - Able to work independently, recognizing problems and finding suitable solutions.
@@ -28,11 +28,11 @@ MySQL, Solr, SQLite
 
 #### Web Standards and Frameworks
 
-HTML5, WebSockets, CSS/SASS, XML/XSLT, AJAX, REST
+HTML5, WebSockets, CSS/SASS, XML/XSLT, AJAX, REST, OAuth
 
 #### Operating Systems and DevOps Tools
 
-Linux (Debian, Ubuntu), UNIX (macOS, FreeBSD), Windows; Docker, Git, GitLab, Jira
+Linux, macOS, Windows; Docker, Git, GitLab, Jira
 
 #### Internet and Network Technologies
 
@@ -48,11 +48,12 @@ Capture One, Adobe Photoshop, Lightroom, Acrobat, Illustrator, InDesign
 
 _Software Developer, 09/2009 - present_
 
-- Development of large PHP and Node.js web and backend applications in financial context.
+- Development of large Node.js and PHP web and backend applications in financial context.
 - Implementation of Vue.js frontends
+- Concept and implementation of an OAuth-based authentications service, including backend and frontend libraries.
 - Concept, implementation and operation of a Node.js and WebSocket-based generic high-traffic event push service for various sites and services.
 - Concept and development of a powerful Open Source REST API framework, available at https://github.com/godmodelabs/flora
-- Maintenance and migration of legacy PHP databases and large applications.
+- Maintenance and migration of legacy PHP applications and large databases.
 
 #### Freelance and Voluntary Work
 

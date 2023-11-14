@@ -1,3 +1,1 @@
 # kaiser.me
-
-Personal website
