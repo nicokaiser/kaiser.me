@@ -1,6 +1,6 @@
 {
-  "subject": "acct:nicokaiser@mastodon.social",
-  "aliases": ["https://mastodon.social/@nicokaiser", "https://mastodon.social/users/nicokaiser"],
+  "subject": "acct:nico@kaiser.me",
+  "aliases": ["acct:nicokaiser@mastodon.social", "https://mastodon.social/@nicokaiser", "https://mastodon.social/users/nicokaiser"],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
@@ -15,6 +15,10 @@
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
       "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://auth.kaiser.me"
     }
   ]
 }
