@@ -45,17 +45,40 @@
       a.button {
         text-decoration: inherit;
         display: block;
-        background-color: #f4f4f5;
         margin: 1rem 0;
-        padding: 1rem;
-        border-radius: 0.75rem;
+        padding: calc(1rem - 1px);
+        isolation: isolate;
+        position: relative;
+        border: 1px solid rgb(9 9 11 / 0.1);
+        border-radius: 0.5rem;
+        background: #fff;
+        color: #09090b;
+        font-weight: 600;
+      }
+      a.button::before {
+        content: "";
+        position: absolute;
+        inset: 0px;
+        background: #fff;
+        border-radius: 0.5rem;
+        z-index: -10;
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+      }
+      a.button::after {
+        content: "";
+        position: absolute;
+        border-radius: 0.5rem;
+        inset: 0;
+      }
+      a.button:hover::after {
+        background: rgb(9 9 11 / 0.025);
       }
       .icons {
         margin: 2rem 0;
         display: flex;
         place-content: center;
       }
-      a {
+      .icons a {
         color: inherit;
         margin: 0 0.5rem;
       }
@@ -64,12 +87,24 @@
       }
       @media (prefers-color-scheme: dark) {
         body {
-          color: #fff;
           background: #000;
+          color: #fff;
         }
         a.button {
-          background-color: #27272a;
-          color: white;
+          background: #27272a;
+          color: #fff;
+          border-color: rgb(255 255 255 / 0.05);
+        }
+        a.button::before {
+          display: none;
+          background: #18181b;
+        }
+        a.button::after {
+          inset: -1px;
+          box-shadow: 0 0 #0000, 0 0 #0000, inset 0 1px rgb(255 255 255 / 0.15);
+        }
+        a.button:hover::after {
+          background: rgb(255 255 255 / 0.05);
         }
       }
     </style>
