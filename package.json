@@ -1,0 +1,9 @@
+{
+  "name": "kaiser.me",
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-css-order": "^2.0.1"
+  },
+  "private": true
+}
