@@ -9,11 +9,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: actions/upload-artifact@v4
-        with:
-          name: kaiserme
-          path: public
-          if-no-files-found: error
       - name: Upload to server
         run: |
           mkdir -p ~/.ssh
