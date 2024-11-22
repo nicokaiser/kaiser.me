@@ -2,7 +2,7 @@
 
 _Web Developer & Computer Scientist_
 
-https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nicokaiser](https://twitter.com/nicokaiser)
+https://kaiser.me / [nico@kaiser.me](mailto:nico@kaiser.me) / [@nico.kaiser.me](https://bsky.app/profile/nico.kaiser.me)
 
 ## Personal Summary
 
