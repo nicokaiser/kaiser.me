@@ -17,4 +17,4 @@ jobs:
           ssh-keyscan -p 22 -t ed25519 ${{ secrets.ARTIFACT_HOST }} >> ~/.ssh/known_hosts
       - name: Deploy to server
         run: |
-          rsync -az --delete public kaiserme@${{ secrets.ARTIFACT_HOST }}:/srv/kaiserme/
+          rsync -az --delete public/ kaiserme@${{ secrets.ARTIFACT_HOST }}:/srv/www/kaiser.me/public_html/
