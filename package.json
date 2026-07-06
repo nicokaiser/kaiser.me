@@ -1,9 +1,7 @@
 {
   "name": "kaiser.me",
   "scripts": {
-    "deploy": "rclone sync --config /notfound --progress --sftp-host server.kaiser.me --sftp-user nico public/ :sftp:/srv/www/kaiser.me/public_html",
-    "dev": "hugo server",
-    "predeploy": "npm run build"
+    "deploy": "rclone sync --config /notfound --progress --sftp-host server.kaiser.me --sftp-user nico public/ :sftp:/srv/www/kaiser.me/public_html"
   },
   "private": true
 }
