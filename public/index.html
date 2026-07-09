@@ -273,7 +273,8 @@
         "date": "2025-01-02",
         "artist": "ViTa MusicA",
         "title": "Encuentro Noches de Invierno",
-        "location": "Reichenau/Rax, AT"
+        "location": "Reichenau/Rax, AT",
+        "video": "https://www.youtube.com/watch?v=XCNiSIbhV60"
     },
     {
         "date": "2025-01-13",
@@ -340,7 +341,7 @@
         "artist": "belAccord",
         "title": "Kleines Konzert",
         "location": "Wien, AT",
-        "link": {"type": "video", "url": "https://www.youtube.com/watch?v=Sj5nunBxCcY"}
+        "video": "https://www.youtube.com/watch?v=Sj5nunBxCcY"
     },
     {
         "date": "2025-11-09",
@@ -371,7 +372,7 @@
         "artist": "ViTa MusicA",
         "title": "Akkordeonfestival 2026 Eröffnungskonzert",
         "location": "Wien, AT",
-        "link": {"type": "video", "url": "https://www.youtube.com/watch?v=4qnGXTNhr2Y"}
+        "video": "https://www.youtube.com/watch?v=4qnGXTNhr2Y"
     },
     {
         "date": "2026-04-17",
@@ -384,7 +385,8 @@
         "artist": "ViTa MusicA",
         "title": "Milonga im Atelier SOL",
         "location": "Wien, AT",
-        "url": "https://www.ateliersol.at/details-registrierung/konzert-milonga-mit-vita-musica"
+        "info": "https://www.ateliersol.at/details-registrierung/konzert-milonga-mit-vita-musica",
+        "video": "https://www.facebook.com/helmut.hoellriegl/posts/pfbid0NF2vPLibgxFtLs7sexX7Y9R16y96x1Jf5o2VpbSHbUmy7Exng7YUXVs4yaQ7dHVNl"
     },
     {
         "date": "2026-05-06",
@@ -397,35 +399,36 @@
         "artist": "Bandoneon Solo",
         "title": "Vernissage \"Art Gablitz\"",
         "location": "Wiener Neustadt, AT",
-        "link": {"type": "video", "url": "https://www.youtube.com/watch?v=EvqNE9HP8U0"}
+        "video": "https://www.youtube.com/watch?v=EvqNE9HP8U0"
     },
     {
         "date": "2026-06-27",
         "artist": "ViTa MusicA",
         "title": "Milonga del Vino",
         "location": "Wien, AT",
-        "link": {"type": "info", "url": "https://amigosdeltango-vienna.com/blog/special-live-music-night-at-milonga-del-vino_1"}
+        "info": "https://amigosdeltango-vienna.com/blog/special-live-music-night-at-milonga-del-vino_1",
+        "video": "https://www.facebook.com/reel/2112828765930937/"
     },
     {
         "date": "2026-07-07",
         "artist": "ViTa MusicA",
         "title": "Tango Verano Summer School",
         "location": "Luhačovice, CZ",
-        "link": {"type": "info", "url": "https://argtango.com/en/lesson/tangoverano"}
+        "info": "https://argtango.com/en/lesson/tangoverano"
     },
     {
         "date": "2026-09-19",
         "artist": "ViTa MusicA",
         "title": "Milonga Recuerda",
         "location": "Graz, AT",
-        "link": {"type": "info", "url": "https://happeningnext.com/event/milonga-recuerda-mit-live-musik-vita-musica-eid3a0dsjpgcn"}
+        "info": "https://happeningnext.com/event/milonga-recuerda-mit-live-musik-vita-musica-eid3a0dsjpgcn"
     },
     {
         "date": "2026-09-26",
         "artist": "Sinf. AO München",
         "title": "Akkordeon konzertant",
         "location": "Fürstenfeldbruck, DE",
-        "link": {"type": "info", "url": "https://www.fuerstenfeld.de/raumdetail_de/event/20260927_sinfonisches_akkordeonorchester_muenchen_"}
+        "info": "https://www.fuerstenfeld.de/raumdetail_de/event/20260927_sinfonisches_akkordeonorchester_muenchen_"
     },
     {
         "date": "2026-10-11",
@@ -444,14 +447,14 @@
         "artist": "belAccord",
         "title": "Konzert des Wiener Akkordeonclub Favoriten",
         "location": "Wien, AT",
-        "link": {"type": "info", "url": "https://www.akkordeonclub.at/js_events/konzert-des-wiener-akkordeonclub-favoriten-2/"}
+        "info": "https://www.akkordeonclub.at/js_events/konzert-des-wiener-akkordeonclub-favoriten-2/"
     },
     {
         "date": "2026-12-12",
         "artist": "ViTa MusicA",
         "title": "Milonga beim Workshop Rakovec 2026",
         "location": "Brno, CZ",
-        "link": {"type": "info", "url": "https://argtango.com/prihlasky/workshop-rakovec-2026"}
+        "info": "https://argtango.com/prihlasky/workshop-rakovec-2026"
     },
     {
         "date": "2026-12-18",
@@ -464,7 +467,7 @@
         "artist": "ViTa MusicA",
         "title": "Encuentro Noches de Invierno",
         "location": "Reichenau/Rax, AT",
-        "link": {"type": "info", "url": "https://www.nochesdeinvierno.com/de/program.html"}
+        "info": "https://www.nochesdeinvierno.com/de/program.html"
     }
   ]
   </script>
@@ -494,9 +497,11 @@
 
       const LABELS = { info: 'More info', video: 'Watch video' };
 
-      function linkCell(link) {
-        if (!link) return '<td class="event-cell-link"></td>';
-        return `<td class="event-cell-link"><a href="${link.url}" class="event-link" title="${LABELS[link.type]}" aria-label="${LABELS[link.type]}">${ICONS[link.type]}</a></td>`;
+      function linkCell(e, isPast) {
+        const type = isPast && e.video ? 'video' : 'info';
+        const url = e[type];
+        if (!url) return '<td class="event-cell-link"></td>';
+        return `<td class="event-cell-link"><a href="${url}" class="event-link" title="${LABELS[type]}" aria-label="${LABELS[type]}">${ICONS[type]}</a></td>`;
       }
 
       function renderRows(list, isPast, isFirst) {
@@ -524,7 +529,7 @@
           </td>
           <td class="event-cell-title">${e.title}</td>
           <td class="event-cell-location">${e.location}</td>
-          ${linkCell(e.link)}
+          ${linkCell(e, true)}
         </tr>`);
           } else {
             html.push(`<tr class="event-row">
@@ -535,7 +540,7 @@
           </td>
           <td class="event-cell-title">${e.title}</td>
           <td class="event-cell-location">${e.location}</td>
-          ${linkCell(e.link)}
+          ${linkCell(e, false)}
         </tr>`);
           }
         }
