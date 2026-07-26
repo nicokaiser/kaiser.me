@@ -1,0 +1,202 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  flex: 1;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 4rem 1.5rem;
+}
+
+/* Header */
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.site-logo {
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Events table */
+
+.events-table {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+/* Section heading row */
+
+.section-heading td {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0 0 1rem;
+}
+
+.section-heading--spaced td {
+  padding-top: 4rem;
+}
+
+/* Year row */
+
+.year-row td {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.25);
+  padding: 0 0 0.25rem;
+}
+
+.year-row--spaced td {
+  padding-top: 1.5rem;
+}
+
+/* Event rows */
+
+.event-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background-color 0.15s;
+}
+
+.event-row:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.event-row--past {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.event-row td {
+  padding: 0.75rem 1rem 0.75rem 0;
+  vertical-align: top;
+}
+
+.event-cell-date {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.event-row:not(.event-row--past) .event-cell-date {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.artist-name--upcoming {
+  font-weight: 500;
+}
+
+.artist-subtitle {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 0.125rem;
+}
+
+.event-row--past .artist-subtitle {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.event-row:not(.event-row--past) .artist-subtitle {
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.event-cell-title,
+.event-cell-location {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .artist-subtitle {
+    display: none;
+  }
+
+  .event-cell-title,
+  .event-cell-location {
+    display: table-cell;
+  }
+}
+
+.event-row:not(.event-row--past) .event-cell-title {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.event-row:not(.event-row--past) .event-cell-location {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.event-cell-link {
+  padding-right: 0;
+  text-align: right;
+}
+
+.event-link {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.event-link:hover {
+  color: #fff;
+}
+
+.event-link-icon {
+  display: inline;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+/* Footer */
+
+.footer-contact {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  padding: 2rem 0;
+}
+
+.contact-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.contact-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-icon {
+  display: inline;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}

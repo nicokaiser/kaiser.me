@@ -1,7 +1,18 @@
 {
-  "name": "kaiser.me",
+  "name": "gallery-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "deploy": "rclone sync --config /notfound --progress --sftp-host server.kaiser.me --sftp-user nico public/ :sftp:/srv/www/kaiser.me/public_html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "private": true
+  "devDependencies": {
+    "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
 }
