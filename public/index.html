@@ -115,6 +115,10 @@
       color: rgba(255, 255, 255, 0.5);
     }
 
+    .event-row--linked {
+      cursor: pointer;
+    }
+
     .event-row td {
       padding: 0.75rem 1rem 0.75rem 0;
       vertical-align: top;
@@ -498,6 +502,11 @@
 
       const LABELS = { info: 'More info', video: 'Watch video' };
 
+      function linkUrl(e, isPast) {
+        const type = isPast && e.video ? 'video' : 'info';
+        return e[type];
+      }
+
       function linkCell(e, isPast) {
         const type = isPast && e.video ? 'video' : 'info';
         const url = e[type];
@@ -521,8 +530,12 @@
             lastYear = year;
           }
 
+          const url = linkUrl(e, isPast);
+          const linkedAttrs = url ? ` data-href="${url}"` : '';
+          const linkedClass = url ? ' event-row--linked' : '';
+
           if (isPast) {
-            html.push(`<tr class="event-row event-row--past">
+            html.push(`<tr class="event-row event-row--past${linkedClass}"${linkedAttrs}>
           <td class="event-cell-date">${formatDate(e.date)}</td>
           <td class="event-cell-artist">
             <span>${e.artist}</span>
@@ -533,7 +546,7 @@
           ${linkCell(e, true)}
         </tr>`);
           } else {
-            html.push(`<tr class="event-row">
+            html.push(`<tr class="event-row${linkedClass}"${linkedAttrs}>
           <td class="event-cell-date">${formatDate(e.date)}</td>
           <td class="event-cell-artist">
             <span class="artist-name--upcoming">${e.artist}</span>
@@ -548,9 +561,16 @@
         return html.join('\n');
       }
 
-      document.getElementById('events-body').innerHTML =
+      const eventsBody = document.getElementById('events-body');
+      eventsBody.innerHTML =
         renderRows(upcoming, false, true) +
         renderRows(past, true, upcoming.length === 0);
+
+      eventsBody.addEventListener('click', function (event) {
+        if (event.target.closest('a')) return;
+        const row = event.target.closest('tr[data-href]');
+        if (row) window.location.href = row.dataset.href;
+      });
     })();
   </script>
 
